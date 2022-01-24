@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<script>
+    const a = document.querySelector('#ytb-logo-link');
+    a.text() = none;
+</script>
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <nav>
+            <div class="main-nav-area">
+                <div id="logo">
+                    <div class="hmbgr-menu">
+                        <a href="#">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="ytb-logo">
+                        <a id="ytb-logo-link" href="#">
+                            <i class="fab fa-youtube"></i>YouTube
+                        </a>
+                    </div>
+                </div>
+                <div id="search">
+                <input type="search" name="Type" id="search-input">
+                <button id="nav-search" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+                </div>
+                <div id="icons">
+                    
+                    <div class="ytb-icon-scope">
+
+                                <a id="ytb-icon-link" href="#">
+                                    <i class="far fa-plus-square"></i>
+                                </a>
+
+                                <a id="ytb-icon-link" href="#">
+                                    <i class="fas fa-dice-six"></i>
+                                </a>
+
+                                <a id="ytb-icon-link" href="#">
+                                    <i class="fas fa-bell"></i>
+                                </a>
+
+                                <a id="ytb-icon-link" href="#">
+                                    <img id="img" class="ytb-icon ytb-img" alt="Avatar resmi" height="32" width="32" src="https://yt3.ggpht.com/bLurgs8VwZz_uv1QMKyjec68NLW69AlOaH4aLUwk34Co1QGE-TK15NBYTNBFroutD4pOsGkbtGs=s88-c-k-c0x00ffffff-no-rj-mo">
+                                </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+
+            <div class="video-content">
+                <video width="900" controls>
+                    <source src="/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </main>
+        <div id="sidebar">
+            <div class="cards-main">
+                <div class="cards">
+                         
+                    <script>
+                        // Making the loop through the cards
+                        
+                        for (let i = 0; i <12; i++) {
+                            document.write(`
+                            <a id="ytb-icon-link-thumb" href="http://kayacuneyt.com" target="_blank">
+                                <div class="card" id="video-card">
+                                    <div class="video-thumb">
+                                        <video>
+                                            <source src="/video.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="description">
+                                        <h5>Title</h5>
+                                        <p>Explain the details</p>
+                                    </div>
+                                </div>
+                            </a>
+                            `);
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copy-footer">
+                <p>Copyright &#169; 2019&#x2013;2022 <a href="https://kayacuneyt.com" target="_blank">Cüneyt Kaya</a></p>
+            </div>
+
+                <div class="ytb-icon-scope-footer">
+                    <a id="ytb-icon-link" href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a id="ytb-icon-link" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a id="ytb-icon-link" href="#">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+        </footer>
+    </div>
+
+
+
+</body>
+</html>
